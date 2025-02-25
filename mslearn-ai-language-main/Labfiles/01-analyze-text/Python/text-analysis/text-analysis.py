@@ -6,6 +6,10 @@ from azure.core.credentials import AzureKeyCredential
 from azure.ai.textanalytics import TextAnalyticsClient
 
 # Import namespaces
+ # import namespaces
+from azure.ai.translation.text import *
+from azure.ai.translation.text.models import InputTextItem
+
 def main():
     try:
         # Get Configuration Settings
@@ -14,6 +18,8 @@ def main():
         ai_key = os.getenv('AI_SERVICE_KEY')
 
         # Create client using endpoint and key
+        credential = TranslatorCredential(translatorKey, translatorRegion)
+        client = TextTranslationClient(credential)
         # Create client using endpoint and key
         credential = AzureKeyCredential(ai_key)
         ai_client = TextAnalyticsClient(endpoint=ai_endpoint, credential=credential)
