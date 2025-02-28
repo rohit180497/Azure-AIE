@@ -3,7 +3,7 @@ from datetime import datetime
 import os
  # Import namespaces
 import azure.cognitiveservices.speech as speech_sdk
-# Import namespaces
+# Import namespaces 
 
 
 def main():
