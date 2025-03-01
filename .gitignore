@@ -3,6 +3,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+mslearn-knowledge-mining-main/Labfiles/01-azure-search/data
+mslearn-knowledge-mining-main/Labfiles/02-search-skill/data
+mslearn-knowledge-mining-main/Labfiles/03-knowledge-store/data
+
+mslearn-knowledge-mining-main/Labfiles/04-enrich-custom-classes/movie-genre-function.zip
+mslearn-knowledge-mining-main/Labfiles/04-enrich-custom-classes/movies summary.zip
+mslearn-knowledge-mining-main/Labfiles/01-azure-search/data
+mslearn-knowledge-mining-main/Labfiles/02-search-skill/data
+mslearn-knowledge-mining-main/Labfiles/03-knowledge-store/data
+
 # C extensions
 *.so
 .env

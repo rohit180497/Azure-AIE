@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 from datetime import datetime
 import os
- # Import namespaces
 import azure.cognitiveservices.speech as speech_sdk
 # Import namespaces 
 
