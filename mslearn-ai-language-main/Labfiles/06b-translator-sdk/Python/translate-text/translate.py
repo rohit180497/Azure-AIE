@@ -9,6 +9,7 @@ from azure.ai.translation.text.models import InputTextItem
 def main():
     try:
         # Get Configuration Settings
+        
         load_dotenv()
         translatorRegion = os.getenv('TRANSLATOR_REGION')
         translatorKey = os.getenv('TRANSLATOR_KEY')
